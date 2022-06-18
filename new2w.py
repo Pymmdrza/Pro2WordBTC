@@ -183,7 +183,7 @@ while True:
 			fx.write('\nADDR 3: ' + str(addr3) + '  Balance: ' + str(bal3))
 			fx.write('\nMnemonic: ' + str(mnemonic_words))
 			fx.write('\nPrivate Key: ' + str(private_key))
-			fx.write('\n------------------------------[ MMDRZA.COM ]------------------------------------')
+			fx.write('\n------------------------------[ MMDRZA.COM ]-----------------------------------')
 			fx.close()
 		
 		else:
