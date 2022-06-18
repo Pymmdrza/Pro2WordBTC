@@ -17,6 +17,7 @@ pip install hdwallet
 pip install lxml
 pip install bit
 pip install colorama rich
+pip install bip32utils
 ```
 
 run this Script Neeeded Node , can u changed balance address with `localhost` and insert your node address on file `new2w.py` 
