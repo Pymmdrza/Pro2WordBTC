@@ -191,4 +191,4 @@ while True:
 			count += 2
 			print('Scan:', str(count), ' WiN:', str(wx), str(addr3), str(addr4), '=', str(mnemonic_words))
 			count += 2
-			print('Scan:', str(count), ' WiN:', str(wx), Fore.GREEN, str(address), str(uaddr), '=', str(mnemonic_words))
+			print('Scan:', str(count), ' WiN:', str(wx), str(address), str(uaddr), '=', str(mnemonic_words))
