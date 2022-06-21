@@ -1,11 +1,10 @@
 
-
-#███╗   ███╗███╗   ███╗██████╗ ██████╗ ███████╗ █████╗     ██████╗ ██████╗ ███╗   ███╗
-#████╗ ████║████╗ ████║██╔══██╗██╔══██╗╚══███╔╝██╔══██╗   ██╔════╝██╔═══██╗████╗ ████║
-#██╔████╔██║██╔████╔██║██║  ██║██████╔╝  ███╔╝ ███████║   ██║     ██║   ██║██╔████╔██║
-#██║╚██╔╝██║██║╚██╔╝██║██║  ██║██╔══██╗ ███╔╝  ██╔══██║   ██║     ██║   ██║██║╚██╔╝██║
-#██║ ╚═╝ ██║██║ ╚═╝ ██║██████╔╝██║  ██║███████╗██║  ██║██╗╚██████╗╚██████╔╝██║ ╚═╝ ██║
-#╚═╝     ╚═╝╚═╝     ╚═╝╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝ ╚═════╝ ╚═════╝ ╚═╝     ╚═╝
+# ███╗   ███╗███╗   ███╗██████╗ ██████╗ ███████╗ █████╗     ██████╗ ██████╗ ███╗   ███╗
+# ████╗ ████║████╗ ████║██╔══██╗██╔══██╗╚══███╔╝██╔══██╗   ██╔════╝██╔═══██╗████╗ ████║
+# ██╔████╔██║██╔████╔██║██║  ██║██████╔╝  ███╔╝ ███████║   ██║     ██║   ██║██╔████╔██║
+# ██║╚██╔╝██║██║╚██╔╝██║██║  ██║██╔══██╗ ███╔╝  ██╔══██║   ██║     ██║   ██║██║╚██╔╝██║
+# ██║ ╚═╝ ██║██║ ╚═╝ ██║██████╔╝██║  ██║███████╗██║  ██║██╗╚██████╗╚██████╔╝██║ ╚═╝ ██║
+# ╚═╝     ╚═╝╚═╝     ╚═╝╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝ ╚═════╝ ╚═════╝ ╚═╝     ╚═╝
 # This Script Has Trial / Can Order For Pro version Follow https://mmdrza.com
 # Telegram Channel : @mPython3 / Telegram ID : @PyMmdrza
 #####################################################################################
@@ -30,69 +29,69 @@ console.clear()
 
 
 def xBal(address):
-	urlblock = "https://bitcoin.atomicwallet.io/address/" + address
-	respone_block = requests.get(urlblock)
-	byte_string = respone_block.content
-	source_code = html.fromstring(byte_string)
-	xpatch_txid = '/html/body/main/div/div[2]/div[1]/table/tbody/tr[3]/td[2]'
-	treetxid = source_code.xpath(xpatch_txid)
-	xVol = str(treetxid[0].text_content())
-	return xVol
+    urlblock = "https://bitcoin.atomicwallet.io/address/" + address
+    respone_block = requests.get(urlblock)
+    byte_string = respone_block.content
+    source_code = html.fromstring(byte_string)
+    xpatch_txid = '/html/body/main/div/div[2]/div[1]/table/tbody/tr[3]/td[2]'
+    treetxid = source_code.xpath(xpatch_txid)
+    xVol = str(treetxid[0].text_content())
+    return xVol
 
 
 def xBal1(uaddr):
-	urlblock = "https://bitcoin.atomicwallet.io/address/" + uaddr
-	respone_block = requests.get(urlblock)
-	byte_string = respone_block.content
-	source_code = html.fromstring(byte_string)
-	xpatch_txid = '/html/body/main/div/div[2]/div[1]/table/tbody/tr[3]/td[2]'
-	treetxid = source_code.xpath(xpatch_txid)
-	xVol = str(treetxid[0].text_content())
-	return xVol
+    urlblock = "https://bitcoin.atomicwallet.io/address/" + uaddr
+    respone_block = requests.get(urlblock)
+    byte_string = respone_block.content
+    source_code = html.fromstring(byte_string)
+    xpatch_txid = '/html/body/main/div/div[2]/div[1]/table/tbody/tr[3]/td[2]'
+    treetxid = source_code.xpath(xpatch_txid)
+    xVol = str(treetxid[0].text_content())
+    return xVol
 
 
 def GetxBal3(addr3):
-	urlblock = "https://bitcoin.atomicwallet.io/address/" + addr3
-	respone_block = requests.get(urlblock)
-	byte_string = respone_block.content
-	source_code = html.fromstring(byte_string)
-	xpatch_txid = '/html/body/main/div/div[2]/div[1]/table/tbody/tr[3]/td[2]'
-	treetxid = source_code.xpath(xpatch_txid)
-	xVol = str(treetxid[0].text_content())
-	return xVol
+    urlblock = "https://bitcoin.atomicwallet.io/address/" + addr3
+    respone_block = requests.get(urlblock)
+    byte_string = respone_block.content
+    source_code = html.fromstring(byte_string)
+    xpatch_txid = '/html/body/main/div/div[2]/div[1]/table/tbody/tr[3]/td[2]'
+    treetxid = source_code.xpath(xpatch_txid)
+    xVol = str(treetxid[0].text_content())
+    return xVol
 
 
 def GetxBal4(addr4):
-	urlblock = "https://bitcoin.atomicwallet.io/address/" + addr4
-	respone_block = requests.get(urlblock)
-	byte_string = respone_block.content
-	source_code = html.fromstring(byte_string)
-	xpatch_txid = '/html/body/main/div/div[2]/div[1]/table/tbody/tr[3]/td[2]'
-	treetxid = source_code.xpath(xpatch_txid)
-	xVol = str(treetxid[0].text_content())
-	return xVol
+    urlblock = "https://bitcoin.atomicwallet.io/address/" + addr4
+    respone_block = requests.get(urlblock)
+    byte_string = respone_block.content
+    source_code = html.fromstring(byte_string)
+    xpatch_txid = '/html/body/main/div/div[2]/div[1]/table/tbody/tr[3]/td[2]'
+    treetxid = source_code.xpath(xpatch_txid)
+    xVol = str(treetxid[0].text_content())
+    return xVol
 
 
 def GetxBal5(addr5):
-	urlblock = "https://bitcoin.atomicwallet.io/address/" + addr5
-	respone_block = requests.get(urlblock)
-	byte_string = respone_block.content
-	source_code = html.fromstring(byte_string)
-	xpatch_txid = '/html/body/main/div/div[2]/div[1]/table/tbody/tr[3]/td[2]'
-	treetxid = source_code.xpath(xpatch_txid)
-	xVol = str(treetxid[0].text_content())
-	return xVol
+    urlblock = "https://bitcoin.atomicwallet.io/address/" + addr5
+    respone_block = requests.get(urlblock)
+    byte_string = respone_block.content
+    source_code = html.fromstring(byte_string)
+    xpatch_txid = '/html/body/main/div/div[2]/div[1]/table/tbody/tr[3]/td[2]'
+    treetxid = source_code.xpath(xpatch_txid)
+    xVol = str(treetxid[0].text_content())
+    return xVol
 
 
 def GetxBal6(addr6):
-	urlblock = "https://bitcoin.atomicwallet.io/address/" + addr6
-	respone_block = requests.get(urlblock)
-	byte_string = respone_block.content
-	source_code = html.fromstring(byte_string)
-	xpatch_txid = '/html/body/main/div/div[2]/div[1]/table/tbody/tr[3]/td[2]'
-	treetxid = source_code.xpath(xpatch_txid)
-	xVol = str(treetxid[0].text_content())
-	return xVol
+    urlblock = "https://bitcoin.atomicwallet.io/address/" + addr6
+    respone_block = requests.get(urlblock)
+    byte_string = respone_block.content
+    source_code = html.fromstring(byte_string)
+    xpatch_txid = '/html/body/main/div/div[2]/div[1]/table/tbody/tr[3]/td[2]'
+    treetxid = source_code.xpath(xpatch_txid)
+    xVol = str(treetxid[0].text_content())
+    return xVol
 
 
 mylist = []
@@ -139,70 +138,73 @@ icAdd = str(icons[1])
 icOk = str(icons[2])
 
 while True:
-	count += 1
-	tota += divs
-	c1 = random.choice(wordlist)
-	c2 = random.choice(wordlist)
-	c3 = random.choice(wordlist)
-	c4 = random.choice(wordlist)
-	c5 = random.choice(wordlist)
-	c6 = random.choice(wordlist)
-	c7 = random.choice(wordlist)
-	c8 = random.choice(wordlist)
-	c9 = random.choice(wordlist)
-	c10 = random.choice(wordlist)
-	c11 = random.choice(wordlist)
-	c12 = random.choice(wordlist)
-	choice = "".join(c1 + ' ' + c2 + ' ' + c3 + ' ' + c4 + ' ' + c5 + ' ' + c6 + ' ' + c7 + ' ' + c8 + ' ' + c9 + ' ' + c10 + ' ' + c11 + ' ' + c12)
-	
-	for child in range(0, divs):
-		mnemonic_words = str(choice)
-		mnemo = Mnemonic("english")
-		seed = mnemo.to_seed(mnemonic_words, passphrase="")
-		bip32_root_key_obj = bip32utils.BIP32Key.fromEntropy(seed)
-		bip32_child_key_obj = bip32_root_key_obj.ChildKey(44 + bip32utils.BIP32_HARDEN).ChildKey(0 + bip32utils.BIP32_HARDEN).ChildKey(0 + bip32utils.BIP32_HARDEN).ChildKey(0).ChildKey(child)
-		first_encode = base58.b58decode(bip32_child_key_obj.WalletImportFormat())
-		private_key_full = binascii.hexlify(first_encode)
-		private_keyhex = private_key_full[2:-10]
-		wifu = ice.btc_pvk_to_wif(private_keyhex.decode(), False)
-		dec = int(private_keyhex.decode(), 16)
-		bip32_root = bip32_root_key_obj.ExtendedKey()
-		public_key = binascii.hexlify(bip32_child_key_obj.PublicKey()).decode()
-		private_key = bip32_child_key_obj.WalletImportFormat()
-		priv_hex = private_keyhex.decode()
-		hdwallet: HDWallet = HDWallet(symbol=bitcoin)
-		hdwallet.from_private_key(private_key=priv_hex)
-		address = hdwallet.p2pkh_address()
-		uaddr = hdwallet.p2sh_address()
-		addr3 = hdwallet.p2wsh_address()
-		addr4 = hdwallet.p2wpkh_address()
-		addr5 = hdwallet.p2wpkh_in_p2sh_address()
-		addr6 = hdwallet.p2wsh_in_p2sh_address()
-		bal = xBal(address)
-		bal1 = xBal1(uaddr)
-		bal3 = GetxBal3(addr3)
-		bal4 = GetxBal4(addr4)
-		bal5 = GetxBal5(addr5)
-		bal6 = GetxBal6(addr6)
-		ifer = '0 BTC'
-		if str(bal) != str(ifer) or str(bal1) != str(ifer) or str(bal3) != str(ifer) or str(bal4) != str(ifer) or str(bal5) != str(ifer) or str(bal6) != str(ifer):
-			wx += 1
-			print('winner details saved text file ... MMDRZA.Com ')
-			fx = open("WinnerDetails.txt", "a")
-			fx.write('\nADDR CN: ' + str(address) + '  BALANCE: ' + str(bal))
-			fx.write('\nADDR UN: ' + str(uaddr) + '  BALANCE: ' + str(bal1))
-			fx.write('\nADDR 3: ' + str(addr3) + '  Balance: ' + str(bal3))
-			fx.write('\nADDR 3: ' + str(addr3) + '  Balance: ' + str(bal3))
-			fx.write('\nADDR 3: ' + str(addr3) + '  Balance: ' + str(bal3))
-			fx.write('\nADDR 3: ' + str(addr3) + '  Balance: ' + str(bal3))
-			fx.write('\nMnemonic: ' + str(mnemonic_words))
-			fx.write('\nPrivate Key: ' + str(private_key))
-			fx.write('\n------------------------------[ MMDRZA.COM ]------------------------------------')
-			fx.close()
-		
-		else:
-			print('Scan:', str(count), ' WiN:', str(wx), str(address), str(uaddr), '=', str(mnemonic_words))
-			count += 2
-			print('Scan:', str(count), ' WiN:', str(wx), str(addr3), str(addr4), '=', str(mnemonic_words))
-			count += 2
-			print('Scan:', str(count), ' WiN:', str(wx), str(address), str(uaddr), '=', str(mnemonic_words))
+    count += 1
+    tota += divs
+    c1 = random.choice(wordlist)
+    c2 = random.choice(wordlist)
+    c3 = random.choice(wordlist)
+    c4 = random.choice(wordlist)
+    c5 = random.choice(wordlist)
+    c6 = random.choice(wordlist)
+    c7 = random.choice(wordlist)
+    c8 = random.choice(wordlist)
+    c9 = random.choice(wordlist)
+    c10 = random.choice(wordlist)
+    c11 = random.choice(wordlist)
+    c12 = random.choice(wordlist)
+    choice = "".join \
+        (c1 + ' ' + c2 + ' ' + c3 + ' ' + c4 + ' ' + c5 + ' ' + c6 + ' ' + c7 + ' ' + c8 + ' ' + c9 + ' ' + c10 + ' ' + c11 + ' ' + c12)
+
+    for child in range(0, divs):
+        mnemonic_words = str(choice)
+        mnemo = Mnemonic("english")
+        seed = mnemo.to_seed(mnemonic_words, passphrase="")
+        bip32_root_key_obj = bip32utils.BIP32Key.fromEntropy(seed)
+        bip32_child_key_obj = bip32_root_key_obj.ChildKey(44 + bip32utils.BIP32_HARDEN).ChildKey \
+            (0 + bip32utils.BIP32_HARDEN).ChildKey(0 + bip32utils.BIP32_HARDEN).ChildKey(0).ChildKey(child)
+        first_encode = base58.b58decode(bip32_child_key_obj.WalletImportFormat())
+        private_key_full = binascii.hexlify(first_encode)
+        private_keyhex = private_key_full[2:-10]
+        wifu = ice.btc_pvk_to_wif(private_keyhex.decode(), False)
+        dec = int(private_keyhex.decode(), 16)
+        bip32_root = bip32_root_key_obj.ExtendedKey()
+        public_key = binascii.hexlify(bip32_child_key_obj.PublicKey()).decode()
+        private_key = bip32_child_key_obj.WalletImportFormat()
+        priv_hex = private_keyhex.decode()
+        hdwallet: HDWallet = HDWallet(symbol=bitcoin)
+        hdwallet.from_private_key(private_key=priv_hex)
+        address = hdwallet.p2pkh_address()
+        uaddr = hdwallet.p2sh_address()
+        addr3 = hdwallet.p2wsh_address()
+        addr4 = hdwallet.p2wpkh_address()
+        addr5 = hdwallet.p2wpkh_in_p2sh_address()
+        addr6 = hdwallet.p2wsh_in_p2sh_address()
+        bal = xBal(address)
+        bal1 = xBal1(uaddr)
+        bal3 = GetxBal3(addr3)
+        bal4 = GetxBal4(addr4)
+        bal5 = GetxBal5(addr5)
+        bal6 = GetxBal6(addr6)
+        ifer = '0 BTC'
+        if str(bal) != str(ifer) or str(bal1) != str(ifer) or str(bal3) != str(ifer) or str(bal4) != str(ifer) or str \
+                (bal5) != str(ifer) or str(bal6) != str(ifer):
+            wx += 1
+            print('winner details saved text file ... MMDRZA.Com ')
+            fx = open("WinnerDetails.txt", "a")
+            fx.write('\nADDR CN: ' + str(address) + '  BALANCE: ' + str(bal))
+            fx.write('\nADDR UN: ' + str(uaddr) + '  BALANCE: ' + str(bal1))
+            fx.write('\nADDR 3: ' + str(addr3) + '  Balance: ' + str(bal3))
+            fx.write('\nADDR 3: ' + str(addr4) + '  Balance: ' + str(bal4))
+            fx.write('\nADDR 3: ' + str(addr5) + '  Balance: ' + str(bal5))
+            fx.write('\nADDR 3: ' + str(addr6) + '  Balance: ' + str(bal6))
+            fx.write('\nMnemonic: ' + str(mnemonic_words))
+            fx.write('\nPrivate Key: ' + str(private_key))
+            fx.write('\n------------------------------[ MMDRZA.COM ]------------------------------------')
+            fx.close()
+
+        else:
+            print('Scan:', str(count), ' WiN:', str(wx), str(address), str(uaddr), '=', str(mnemonic_words))
+            count += 2
+            print('Scan:', str(count), ' WiN:', str(wx), str(addr3), str(addr4), '=', str(mnemonic_words))
+            count += 2
+            print('Scan:', str(count), ' WiN:', str(wx), str(address), str(uaddr), '=', str(mnemonic_words))
