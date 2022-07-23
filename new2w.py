@@ -6,7 +6,7 @@
 #╚═╝     ╚═╝╚═╝     ╚═╝╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝ ╚═════╝ ╚═════╝ ╚═╝     ╚═╝
 # This Script Has Trial / Can Order For Pro version Follow https://mmdrza.com
 # Telegram Channel : @mPython3 / Telegram ID : @PyMmdrza
-#####################################################################################
+######################################################################################
 
 import binascii
 import json
