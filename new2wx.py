@@ -72,7 +72,7 @@ def GetxBal4(addr4):
 
 
 def GetxBal5(addr5):
-	request = requests.get('http://5.161.54.171:5000/balance?active=' + addr5, timeout=20)
+	request = requests.get('http://localhost:5000/balance?active=' + addr5, timeout=20)
 	request = request.json()
 	jdumps = json.dumps(request)
 	jloads = json.loads(jdumps)
@@ -81,7 +81,7 @@ def GetxBal5(addr5):
 
 
 def GetxBal6(addr6):
-	request = requests.get('http://5.161.54.171:5000/balance?active=' + addr6, timeout=20)
+	request = requests.get('http://localhost:5000/balance?active=' + addr6, timeout=20)
 	request = request.json()
 	jdumps = json.dumps(request)
 	jloads = json.loads(jdumps)
