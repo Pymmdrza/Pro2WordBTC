@@ -34,7 +34,7 @@ for test and trial script pro2word can running this file `w2word-trial.py` with 
 ![](https://github.com/Pymmdrza/Pro2WordBTC/blob/mainx/p2word-trial.gif)
 
 
-### for order Pro Version this Script, Direct Massage Just on Telegram : [@PyMmdrza](https://t.me/pymmdrza)  
+### for order Pro Version this Script, Direct Massage Just on Telegram : [@PyMmdrza](https://t.me/MrPyMmdrza)  
 
 
 > **Warning**
