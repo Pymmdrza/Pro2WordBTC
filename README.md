@@ -12,7 +12,7 @@
 
 ![](https://github.com/Pymmdrza/Pro2WordBTC/blob/mainx/Pro2Word_PROVERSION-ScreenCapture.gif)
 
-For Running Online This Script [Replit](https://replit.com/join/etzboqvnbs-pymmdrza)
+For Running Online This Script [Colab](https://colab.research.google.com/drive/1d1mI77q3J_NAxbcC_HwWIGqRn1jDNmyL?usp=sharing)
 
 For running First Installing :
 
