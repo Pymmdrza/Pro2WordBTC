@@ -12,27 +12,50 @@
 
 ![](https://github.com/Pymmdrza/Pro2WordBTC/blob/mainx/Pro2Word_PROVERSION-ScreenCapture.gif)
 
-For Running Online This Script [Colab](https://colab.research.google.com/drive/1d1mI77q3J_NAxbcC_HwWIGqRn1jDNmyL?usp=sharing)
 
-For running First Installing :
+For running First Install in Windows :
 
 ```
-pip install hdwallet
-pip install lxml
 pip install bit
-pip install colorama rich
 pip install bip32utils
+pip install binascii
+pip install rich
 ```
 
-run this Script Neeeded Node , can u changed balance address with `localhost` and insert your node address on file `new2w.py` 
+Install In Linux:
 
-this capture from new2w.py :
+```
+sudo apt-get update&&sudo apt-get upgrade --y&&pip3 install bit rich bip32utils binascii
+```
+
 
 ![Bitcoin Crack and Hunting With Mnemonic](https://raw.githubusercontent.com/Pymmdrza/Pro2WordBTC/mainx/pro2word-node_exclusive.gif 'Bitcoin Crack and Hunting With Mnemonic')
 
-for test and trial script pro2word can running this file `w2word-trial.py` with use `atomicwallet`
+---
+in trial version use trezor wallet node to check value  (total transaction and balance) `btc4.trezor.io`
 
-![](https://github.com/Pymmdrza/Pro2WordBTC/blob/mainx/p2word-trial.gif)
+
+all code optimize for threading in any pc and tablet can running with python or python3:
+
+
+running in windows : `python Pro2WordTrial_c.py` or `python Pro2WordTrial_w.py`
+
+
+running in Linux (* Debian) : `python3 Pro2WordTrial_c.py` or `python3 Pro2WordTrial_w.py`
+
+There is no difference between these two trial files, only Rich package is used in one of them and not in the other. which depends on the taste of people and users, which one they use. The script in which Rich is used and is colored in the console is called `Pro2WordTrial_c.py`, and the one that is not used and is faster and is simply displayed is `Pro2WordTrial_w.py`.
+
+
+Trial version screen `Pro2WordTrial_c.py`:
+
+
+![](https://raw.githubusercontent.com/Pymmdrza/Pro2WordBTC/mainx/media/Pro2Word_Rich.gif 'with rich | Pro2Word Trial For Cracking and Hunting Private Key and Mnemonic Bitcoin Wallet')
+
+
+
+Screen from `Pro2WordTrial_w.py`
+
+![](https://raw.githubusercontent.com/Pymmdrza/Pro2WordBTC/mainx/media/pro2word_x.jpg 'without rich | Pro2Word Trial For Cracking and Hunting Private Key and Mnemonic Bitcoin Wallet')
 
 
 ### for order Pro Version this Script, Direct Massage Just on Telegram : [@MrPyMmdrza](https://t.me/MrPyMmdrza)  
