@@ -1,5 +1,5 @@
 [![](https://img.shields.io/badge/Build-Online-orange/?style=plastic)](https://colab.research.google.com/drive/1BXsgx0zYmb83_iJZec6VSj0gMH2737L6?usp=sharing "Google colab - Online Build")
-![Bitcoin Crack and Hunting With Mnemonic](https://github.com/Pymmdrza/Pro2WordBTC/blob/mainx/pro2wordCover1.png 'Bitcoin Crack and Hunting With Mnemonic')
+![Bitcoin Crack and Hunting With Mnemonic](https://raw.githubusercontent.com/Pymmdrza/Pro2WordBTC/mainx/pro2wordCover1.png 'Bitcoin Crack and Hunting With Mnemonic')
 
 # Bitcoin Crack and Hunting With Mnemonic ~ Pro2WordBTC
 
