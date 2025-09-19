@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/Build-Online-orange/?style=plastic&link=https://replit.com/join/etzboqvnbs-pymmdrza)
+[![](https://img.shields.io/badge/Build-Online-orange/?style=plastic)](https://colab.research.google.com/drive/1BXsgx0zYmb83_iJZec6VSj0gMH2737L6?usp=sharing "Google colab - Online Build")
 ![Bitcoin Crack and Hunting With Mnemonic](https://github.com/Pymmdrza/Pro2WordBTC/blob/mainx/pro2wordCover1.png 'Bitcoin Crack and Hunting With Mnemonic')
 
 # Bitcoin Crack and Hunting With Mnemonic ~ Pro2WordBTC
@@ -59,11 +59,11 @@ Screen from `Pro2WordTrial_w.py`
 ![](https://raw.githubusercontent.com/Pymmdrza/Pro2WordBTC/mainx/media/pro2word_x.jpg 'without rich | Pro2Word Trial For Cracking and Hunting Private Key and Mnemonic Bitcoin Wallet')
 
 
-### for order Pro Version this Script, Direct Massage Just on Telegram : [@MrPyMmdrza](https://t.me/MrPyMmdrza)  
+### for order Pro Version this Script, Direct Massage Just on Telegram : [@Mr1Mmdrza](https://t.me/Mr1Mmdrza)  
 
-Programmer Telegram ID [@MrPyMmdrza](https://t.me/MrPyMmdrza)
+Programmer Telegram ID [@Mr1Mmdrza](https://t.me/Mr1Mmdrza)
 
-Programmer Telegram Channel [@Cryptoixer](https://t.me/Cryptoixer)
+Programmer Telegram Channel [@Crypto2ools](https://t.me/Crypto2ools)
 
 > **Warning**
-> Unfortunately, due to the ignorance of some dear users, we were not informed that some profiteers and uncultured people are selling some of my scripts at a lower price. And the user does not receive anything after payment. Some of these ignorant people give malicious and viral files to users. From here, I declare that the only official source for selling my scripts is the [website](https://mmdrza.com) and [Telegram ID](https://t.me/MrPyMmdrza) or [Telegram Channel](https://t.me/Cryptoixer).
+> Unfortunately, due to the ignorance of some dear users, we were not informed that some profiteers and uncultured people are selling some of my scripts at a lower price. And the user does not receive anything after payment. Some of these ignorant people give malicious and viral files to users. From here, I declare that the only official source for selling my scripts is the [website](https://mmdrza.com) and [Telegram ID](https://t.me/Mr1Mmdrza) or [Telegram Channel](https://t.me/Crypto2ools).
